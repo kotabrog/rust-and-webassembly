@@ -6,3 +6,6 @@ wasm_build:
 
 use_nvm:
 	nvm use 14
+
+test:
+	wasm-pack test --chrome
